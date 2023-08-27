@@ -1,0 +1,3 @@
+EXEC sp_addlinkedserver @server='10.10.1.237'
+
+EXEC sp_addlinkedsrvlogin '10.10.1.237', 'false', NULL, 'sa', 'SDUAdmin@2019'
